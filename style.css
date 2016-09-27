@@ -1,0 +1,51 @@
+/* 
+    
+    Author     : Pascal
+*/
+
+body {
+    background-color: black;
+}
+
+img {
+    height: 420px;
+    width: 640px;
+}
+
+#carrousel{
+    position:relative;
+    height:400px;
+    width:700px;
+    margin:auto;
+    box-shadow: 6px 6px 6px black;
+}
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#suivant, #precedent {
+    width: 100px;
+}
+
+ul li {
+    display: none;
+}
+
+.slide-actif {
+    display: inline-block;
+}
+
+
+/* Styles pour les smartphones */
+@media (max-width: 768px) {
+}
+
+/* Styles pour les tablettes */
+@media (min-width: 768px) {
+}
+
+/* Styles pour les écrans moyens et grands */
+@media (min-width: 992px) {
+}

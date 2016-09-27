@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CARROUSEL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+    <body>
+        <div class="container">
+            <div id="carrousel">
+                <ul>
+                    <li class="slide-actif">
+                        <img src="architecture-1.jpg" alt=""/>
+                  
+                    </li>
+                    <li>                     
+                        <img src="book-1.jpg" alt=""/>
+                    </li>
+                    <li>                      
+                        <img src="forest-schwebefliege-1.jpg" alt=""/>
+                    </li>
+                    <li>                      
+                        <img src="music-1.jpg" alt=""/>
+                    </li>
+                    <li>                     
+                        <img src="violin-1.jpg" alt=""/>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-lg-offset-4 "> 
+                    <br />
+                    <div class="col-lg-4">
+                        <button class="btn btn-primary " id="precedent" > <span class="glyphicon glyphicon-chevron-left"></span> <br>Précédent</button>
+                    </div>
+                    <div class="col-lg-2">
+                        <button class="btn btn-primary "   id="suivant" > <span class="glyphicon glyphicon-chevron-right"></span> <br> Suivant</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>
